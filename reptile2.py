@@ -90,6 +90,6 @@ if __name__ == '__main__':
     url ='http://www.weather.com.cn/weather/101060101.shtml'
     html = get_content(url)
     result = get_data(html)
-    write_data(result, 'D:\codespace\python_codespace\HelloWorld\weather.csv')
+    write_data(result, 'D:\codespace\python_codespace\WebCrawler\weather.csv')
 
 
